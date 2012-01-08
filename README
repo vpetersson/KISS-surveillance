@@ -14,8 +14,8 @@ Installation:
 	  Supervisor-config can write to this path.
 	* Make sure set 'CAM1' to match the path to where wget can fetch an image from the camera.
 		* If you have multiple cameras, configure 'CAM2' and uncomment the second wget-string.
-		* You may also want to modify 'DAYSTOKEEP'. This is the value the cleanup-process
-		  uses when determining what to keep and delete.
+	* You may also want to modify 'DAYSTOKEEP'. This is the value the cleanup-process
+	  uses when determining what to keep and delete.
 4) Add a cronjob for the cleanup. The following entry should be sufficient:
 00 1	* * *	www-data	/path/to/kiss-serve.sh cleanup
 
