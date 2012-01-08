@@ -18,5 +18,7 @@ Installation:
 	  uses when determining what to keep and delete.
 4) Add a cronjob for the cleanup. The following entry should be sufficient:
 00 1	* * *	www-data	/path/to/kiss-serve.sh cleanup
+5) If you want to view the recorded images from a web-server, simply install and configure 
+   a web-server to do an index the folders.
 
 That should be it to get you started. 
