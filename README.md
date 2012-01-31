@@ -25,6 +25,7 @@ Any recent UNIX/Linux distribution should work (but only tested on Ubuntu).
     * Configure the 'DELAY'-variable to configure the delay between recordings. By default, it is one second.
     * You may also want to modify 'DAYSTOKEEP'. This is the value the cleanup-process uses when determining what to keep and delete.
 * Add a cronjob for the cleanup. The following entry should be sufficient:
+
     00 1	* * *	www-data	/path/to/kiss-serve.sh cleanup
 * If you want to view the recorded images from a web-server, simply install and configure a web-server to do an index the folders. I prefer Nginx for this. 
 
